@@ -1,0 +1,42 @@
+channels:
+  - conda-forge
+  - nodefaults
+dependencies:
+  - python >=3.10,<3.11
+  - nodejs =16
+  # talk
+  - ipydrawio
+  - ipywidgets
+  - jupyterlab >=3.5
+  - jupyterlab-deck
+  - jupyterlab-myst
+  - importnb
+  - doit
+  # tools
+  - asv
+  - atheris
+  - black
+  - check-manifest
+  - conda-lock
+  - docformatter
+  - firefox
+  - geckodriver
+  - hunspell-en
+  - hypothesis
+  - hypothesis-jsonschema
+  - isort
+  - jake
+  - jupyter-lsp-python-plugins
+  - jupyterlab-lsp
+  - locust
+  - mutpy
+  - pytest
+  - pytest-check-links
+  - pytest-cov
+  - robotframework-jupyterlibrary
+  - ssort
+  - tox
+  # pip deps
+  - pip
+  - pip:
+    - semgrep
