@@ -31,10 +31,12 @@ dependencies:
   - jupyterlab-lsp
   - locust
   - mutpy
+  - mypyc-ipython
   - pytest
   - pytest-check-links
   - pytest-cov
   - robotframework-jupyterlibrary
+  - snakeviz
   - ssort
   - tox
   # pip deps
