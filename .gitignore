@@ -6,4 +6,5 @@ __pycache__/
 .venv/
 .virtual_documents/
 .yarn-packages/
+build/
 node_modules/
