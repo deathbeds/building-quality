@@ -5,13 +5,14 @@ dependencies:
   - python >=3.10,<3.11
   - nodejs =16
   # talk
+  - doit
+  - importnb
   - ipydrawio
   - ipywidgets
+  - jupyter-server-proxy
   - jupyterlab >=3.5
   - jupyterlab-deck
   - jupyterlab-myst
-  - importnb
-  - doit
   # tools
   - asv
   - atheris
