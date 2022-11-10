@@ -1,5 +1,4 @@
 __pycache__/
-.binder/*.requirements.txt
 .coverage
 .ipynb_checkpoints/
 .mypy_cache/
@@ -7,7 +6,9 @@ __pycache__/
 .venv/
 .virtual_documents/
 .yarn-packages/
-talk/*.py
-talk/build/
-talk/crash-*
-talk/htmlcov/
+*.py
+*.requirements.txt
+*.sqlite3
+build/
+crash-*
+htmlcov/

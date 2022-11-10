@@ -8,7 +8,7 @@ This talk is meant to be walked through interactively.
 
 ### On `mybinder.org` (recommended)
 
-Launch it on [![binder-badge]][binder]
+- Launch it on [![binder-badge]][binder]
 
 ### On Your Computer
 
@@ -30,6 +30,14 @@ Launch it on [![binder-badge]][binder]
     jupyter lab talk/00-intro.ipynb
     ```
 - start JupyterLab [Deck mode][deck-mode]
+
+### Either Way
+
+- crank up the zoom to about 200%
+- run through the slides
+    - <kbd>space</kbd> to continue
+    - <kbd>shift+enter</kbd> to run cells
+        - right click on a cell output and _Enable Scrolling for Outputs_ if needed
 
 ## Open Source
 
