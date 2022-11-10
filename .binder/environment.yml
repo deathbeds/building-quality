@@ -25,7 +25,6 @@ dependencies:
   - geckodriver
   - hunspell-en
   - hypothesis
-  - hypothesis-jsonschema
   - isort
   - jake
   - jupyter-lsp-python-plugins
@@ -38,6 +37,7 @@ dependencies:
   - pytest-check-links
   - pytest-cov
   - robotframework-jupyterlibrary
+  - schemathesis
   - snakeviz
   - ssort
   - tox
