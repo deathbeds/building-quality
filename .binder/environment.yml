@@ -31,6 +31,7 @@ dependencies:
   - jupyter-lsp-python-plugins
   - jupyterlab-lsp
   - locust
+  - monkeytype
   - mutpy
   - mypyc-ipython
   - pytest
