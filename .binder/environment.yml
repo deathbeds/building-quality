@@ -20,6 +20,7 @@ dependencies:
   - black
   - check-manifest
   - conda-lock
+  - conda-lock
   - docformatter
   - firefox
   - geckodriver
@@ -33,6 +34,8 @@ dependencies:
   - monkeytype
   - mutpy
   - mypyc-ipython
+  - pydocstyle
+  - pyflakes
   - pytest
   - pytest-check-links
   - pytest-cov
