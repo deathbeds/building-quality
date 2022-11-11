@@ -20,7 +20,6 @@ dependencies:
   - black
   - check-manifest
   - conda-lock
-  - conda-lock
   - docformatter
   - firefox
   - geckodriver
