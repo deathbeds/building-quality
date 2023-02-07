@@ -3,14 +3,14 @@ channels:
   - nodefaults
 dependencies:
   - python >=3.10,<3.11
-  - nodejs =16
+  - nodejs =18
   # talk
   - doit
   - importnb
   - ipydrawio
   - ipywidgets
   - jupyter-server-proxy
-  - jupyterlab >=3.5
+  - jupyterlab >=3.6
   - jupyterlab-deck
   - jupyterlab-myst
   # tools
