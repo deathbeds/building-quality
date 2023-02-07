@@ -3,7 +3,7 @@ channels:
   - nodefaults
 dependencies:
   - python >=3.10,<3.11
-  - nodejs =18
+  - nodejs >=16,!=17.*,<19
   # talk
   - doit
   - importnb
@@ -43,7 +43,13 @@ dependencies:
   - snakeviz
   - ssort
   - tox
-  # pip deps
-  - pip
-  - pip:
-    - semgrep
+  # semgrep deps
+  - peewee
+  - boltons
+  - tqdm
+  - parsy
+  - face
+  - click-option-group
+  - bracex
+  - wcmatch
+  - glom
