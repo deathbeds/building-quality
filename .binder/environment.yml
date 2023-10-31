@@ -1,6 +1,7 @@
 channels:
   - conda-forge/label/jupyterlab_deck_alpha
   - conda-forge/label/jupyterlab_fonts_alpha
+  - conda-forge
   - nodefaults
 dependencies:
   - python ==3.11.*
