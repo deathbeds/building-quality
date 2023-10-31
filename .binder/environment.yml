@@ -3,7 +3,7 @@ channels:
   - conda-forge/label/jupyterlab_fonts_alpha
   - nodefaults
 dependencies:
-  - python >=3.11,<3.12
+  - python ==3.11.*
   - nodejs >=20,<21
   # talk
   - doit
