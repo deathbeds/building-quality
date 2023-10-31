@@ -1,18 +1,17 @@
 channels:
-  - conda-forge
+  - conda-forge/label/jupyterlab_deck_alpha
+  - conda-forge/label/jupyterlab_fonts_alpha
   - nodefaults
 dependencies:
-  - python >=3.10,<3.11
-  - nodejs >=16,!=17.*,<19
+  - python >=3.11,<3.12
+  - nodejs >=20,<21
   # talk
   - doit
   - importnb
-  - ipydrawio
   - ipywidgets
   - jupyter-server-proxy
-  - jupyterlab >=3.6
-  - jupyterlab-deck
-  - jupyterlab-myst
+  - jupyterlab >=4.0.7
+  - jupyterlab-deck >=0.2.0a0
   # tools
   - asv
   - atheris
@@ -35,14 +34,19 @@ dependencies:
   - mypyc-ipython
   - pydocstyle
   - pyflakes
+  - pyproject-fmt
   - pytest
   - pytest-check-links
   - pytest-cov
-  - robotframework-jupyterlibrary
+  - pytest-html
+  - robotframework-jupyterlibrary >=0.5.0
+  - ruff
   - schemathesis
   - snakeviz
   - ssort
+  - taplo
   - tox
+  - vale
   # semgrep deps
   - peewee
   - boltons
