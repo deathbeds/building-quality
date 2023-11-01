@@ -12,6 +12,7 @@ dependencies:
   - ipywidgets
   - jupyter-server-proxy
   - jupyterlab >=4.0.7
+  - notebook >=7.0.6
   - jupyterlab-deck >=0.2.0a0
   # tools
   - asv
