@@ -1,14 +1,28 @@
+<!-- 
+
+    This file can be viewed as a slideshow in `jupyterlab-deck`.
+
+-->
+
+---
+
 # Building Quality
 
 > _a talk about how teams can use tools to assess, maintain, and improve quality_
+
+---
 
 ## Running the talk
 
 This talk is meant to be walked through interactively.
 
+---
+
 ### On `mybinder.org` (recommended)
 
 - Launch it on [![binder-badge]][binder]
+
+---
 
 ### On Your Computer
 
@@ -29,7 +43,10 @@ This talk is meant to be walked through interactively.
     ```bash
     jupyter lab talk/00-intro.ipynb
     ```
+- open [the talk](./talk/00-intro.ipynb)
 - start JupyterLab [Deck mode][deck-mode]
+
+---
 
 ### Either Way
 
@@ -38,6 +55,8 @@ This talk is meant to be walked through interactively.
     - <kbd>space</kbd> to continue
     - <kbd>shift+enter</kbd> to run cells
         - right click on a cell output and _Enable Scrolling for Outputs_ if needed
+
+---
 
 ## Open Source
 
